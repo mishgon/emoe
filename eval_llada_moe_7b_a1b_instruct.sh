@@ -1,9 +1,5 @@
 export HF_ALLOW_CODE_EVAL=1
 export HF_DATASETS_TRUST_REMOTE_CODE=true
-export TOKENIZERS_PARALLELISM=false
-export TORCH_DISTRIBUTED_DEFAULT_TIMEOUT=3600
-export NCCL_TIMEOUT=3600
-export NCCL_ASYNC_ERROR_HANDLING=1
 
 
 accelerate launch -m lm_eval --model llada \
