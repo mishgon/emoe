@@ -1,6 +1,6 @@
 [submodule "lm-evaluation-harness"]
 	path = lm-evaluation-harness
 	url = git@github.com:mishgon/lm-evaluation-harness.git
-[submodule "opencompass"]
-	path = opencompass
-	url = git@github.com:mishgon/opencompass.git
+[submodule "VeOmni"]
+	path = VeOmni
+	url = git@github.com:mishgon/VeOmni.git

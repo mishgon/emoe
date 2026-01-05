@@ -1,4 +1,7 @@
 torch
+torchvision
 transformers
 accelerate
-hf_transfer
+datasets>=4.4.1
+huggingface-hub==0.36.0
+tensorboard
