@@ -8,6 +8,7 @@ accelerate launch -m lm_eval --model llada_moe \
     --model_args model_path=./LLaDA-MoE-7B-A1B-Instruct-Ours,gen_length=512,steps=512,block_length=32 \
     --tasks gsm8k \
     --apply_chat_template \
+    --num_fewshot 0 \
     --batch_size 8 \
     --output_path ./eval_results/llada_moe_7b_a1b_instruct_ours \
     --log_samples \
